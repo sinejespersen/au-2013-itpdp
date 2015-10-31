@@ -1,0 +1,93 @@
+#game {
+    width: 462px;
+    height: 462px;
+    background: white padding: 10px 0 0 10px;
+    margin: 0 auto;
+}
+#game > div {
+    width: 140px;
+    height: 140px;
+    margin: 0 10px 10px 0;
+    border: 2px solid black;
+    overflow: hidden;
+    cursor: pointer;
+    transition: background-color 0.5s, -webkit-transform 0.5s;
+    float: left;
+}
+.readySetGo #game > div:hover {
+    -webkit-transform: scale(1.05);
+}
+.readySetGo #game > div:active {
+    -webkit-transform: scale(1.00);
+}
+#brick0 {
+    background: rgba(255, 34, 39, 0.33);
+}
+#brick0.on {
+    background: rgba(255, 34, 39, 0.95);
+}
+#brick1 {
+    background: rgba(2, 106, 234, 0.33);
+}
+#brick1.on {
+    background: rgba(2, 106, 234, 0.95);
+}
+#brick2 {
+    background: rgba(255, 255, 0, 0.33);
+}
+#brick2.on {
+    background: rgba(255, 255, 0, 0.95);
+}
+#brick3 {
+    background: rgba(255, 255, 0, 0.33);
+}
+#brick3.on {
+    background: rgba(255, 255, 0, 0.95);
+}
+#brick4 {
+    background: rgba(255, 34, 39, 0.33);
+}
+#brick4.on {
+    background: rgba(255, 34, 39, 0.95);
+}
+#brick5 {
+    background: rgba(2, 106, 234, 0.33);
+}
+#brick5.on {
+    background: rgba(2, 106, 234, 0.95);
+}
+#brick6 {
+    background: rgba(2, 106, 234, 0.33);
+}
+#brick6.on {
+    background: rgba(2, 106, 234, 0.95);
+}
+#brick7 {
+    background: rgba(255, 255, 0, 0.33);
+}
+#brick7.on {
+    background: rgba(255, 255, 0, 0.95);
+}
+#brick8 {
+    background: rgba(255, 34, 39, 0.33);
+}
+#brick8.on {
+    background: rgba(255, 34, 39, 0.95);
+}
+button {
+    font: bold 25px Helvetica, Verdana, Sans-serif;
+}
+#button1 {
+    background: rgba(2, 106, 234, 0.33);
+}
+#button2 {
+    background: rgba(255, 255, 0, 0.33);
+}
+#button3 {
+    background: rgba(255, 34, 39, 0.33);
+}
+#errorMessage {
+    text-align: center;
+    font: bold 25px Helvetica, Verdana, Sans-serif;
+    padding-top: 10px;
+}
